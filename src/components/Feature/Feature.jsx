@@ -5,7 +5,7 @@ import { AiFillAlipayCircle } from 'react-icons/ai';
 const Feature = ({feature}) => {
 	return (
 		<div>
-			<p className='flex items-center'> <AiFillAlipayCircle className='text-green-500'></AiFillAlipayCircle> {feature}</p>
+			<p className='flex items-center gap-2'> <AiFillAlipayCircle className='text-green-500'></AiFillAlipayCircle> {feature}</p>
 		</div>
 	);
 };
